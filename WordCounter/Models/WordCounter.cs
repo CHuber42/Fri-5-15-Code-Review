@@ -8,8 +8,8 @@ namespace WordCounter.Models
     public string ScanningString{get;set;}
     public RepeatCounter(string templateString, string scanningString)
     {
-      // TemplateString = templateString;
-      //ScanningString = scanningString;
+      TemplateString = templateString;
+      ScanningString = scanningString;
     }
   }
 }
