@@ -25,7 +25,7 @@ namespace WordCounter.Models
       string scanString = Console.ReadLine();
 
       RepeatCounter scanner = new RepeatCounter(templateString, scanString);
-      scanner.CountOccurrences();
+      Console.WriteLine(scanner.CountOccurrences());
 
     }
   }    

@@ -33,12 +33,20 @@ namespace WordCounter.Models
     //   Assert.AreEqual(2, returnValue);
     // }
 
+    //OLD TEST; METHOD RETURNS STRING INSTEAD OF INT
+    // [TestMethod]
+    // public void CountOccurrences__ReturnsCountOfInstancesIncludingFilterConditions_Two()
+    // {
+    //   RepeatCounter counter = new RepeatCounter("cat in a cat bag", "cat");
+    //   int returnValue = counter.CountOccurrences();
+    //   Assert.AreEqual(2, returnValue);
+    // }
+
     [TestMethod]
     public void CountOccurrences__ReturnsCountOfInstancesIncludingFilterConditions_Two()
     {
       RepeatCounter counter = new RepeatCounter("cat in a cat bag", "cat");
-      int returnValue = counter.CountOccurrences();
-      Assert.AreEqual(2, returnValue);
+      Assert.AreEqual("Your search string occurs: 2 times in the host string.", counter.CountOccurrences());
     }
   }  
 }

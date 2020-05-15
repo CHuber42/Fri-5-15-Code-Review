@@ -30,10 +30,7 @@ To run: either build the project using dotnet build and run the .exe, or navigat
 ** Spec 6: Update Counter Method to count all occurrences of substring in string** Input/Output: "Banana", "anana" | 1 <done>
 ** Spec 7: Add Filter to #6 to not count any occurrences not bracketed by spaces** Input/Output <done>
 ** Core Functionality ends here; more Specs may be added post-attainment of functionality goals ** Input/Output: "I am a Banana", "I" | 1 <done>
-** Spec 8: PRINT VALUE ON SCREEN** Input/Output: "cat in a cat bag", "cat" || 2 <in progress>
-** Spec 1: **
-
-
+** Spec 8: PRINT VALUE ON SCREEN** Input/Output: "cat in a cat bag", "cat" || 2 <done>
 
 ##### _Contact_:
 
