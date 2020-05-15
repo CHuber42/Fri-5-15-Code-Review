@@ -2,14 +2,14 @@ using System;
 
 namespace WordCounter.Models
 {
-    public class RepeatCounter
+  public class RepeatCounter
+  {
+    public string TemplateString{get;set;}
+    public string ScanningString{get;set;}
+    public RepeatCounter(string templateString, string scanningString)
     {
-      public string TemplateString{get;set;}
-      public string ScanningString{get;set;}
-      public RepeatCounter(string templateString, string scanningString)
-      {
-       // TemplateString = templateString;
-        //ScanningString = scanningString;
-      }
+      // TemplateString = templateString;
+      //ScanningString = scanningString;
     }
+  }
 }
