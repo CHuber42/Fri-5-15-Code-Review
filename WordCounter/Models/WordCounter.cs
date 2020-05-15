@@ -2,9 +2,9 @@ using System;
 
 namespace WordCounter.Models
 {
-    public class WordInstance
+    public class RepeatCounter
     {
-      public WordInstance()
+      public RepeatCounter()
       {
         
       }
