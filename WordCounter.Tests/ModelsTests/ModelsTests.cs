@@ -15,12 +15,21 @@ namespace WordCounter.Models
       Assert.AreEqual("anana", counter.ScanningString);
     }
 
+    // OLD TEST; NEEDS UPDATE FOR ALTERED FUNCTIONALITy
+    // [TestMethod]
+    // public void CountOccurrences__ReturnsAnInteger_Six()
+    // {
+    //   RepeatCounter counter = new RepeatCounter("Banana", "anana");
+    //   int returnValue = counter.CountOccurrences();
+    //   Assert.AreEqual(6, returnValue);
+    // }
+
     [TestMethod]
-    public void CountOccurrences__ReturnsAnInteger_Six()
+    public void CountOccurrences__ReturnsAnInteger_Two()
     {
       RepeatCounter counter = new RepeatCounter("Banana", "anana");
       int returnValue = counter.CountOccurrences();
-      Assert.AreEqual(6, returnValue);
+      Assert.AreEqual(2, returnValue);
     }
   }  
 }

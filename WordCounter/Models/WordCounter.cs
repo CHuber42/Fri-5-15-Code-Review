@@ -14,8 +14,14 @@ namespace WordCounter.Models
 
     public int CountOccurrences()
     {
-
-      return TemplateString.Length;
+      int occurrences = 0;
+      for (int i = 0; i <= (TemplateString.Length - ScanningString.Length); i++)
+      {
+        string candidateSubstring = TemplateString.Substring(i,(ScanningString.Length));
+        Console.WriteLine("Candidate: " + candidateSubstring);
+        occurrences += 1;
+      }
+      return occurrences;
     }
   }
 }
