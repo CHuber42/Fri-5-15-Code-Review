@@ -15,7 +15,7 @@ namespace WordCounter.Models
       Assert.AreEqual("anana", counter.ScanningString);
     }
 
-    // OLD TEST; NEEDS UPDATE FOR ALTERED FUNCTIONALITy
+    // OLD TEST; NEEDS UPDATE FOR ALTERED FUNCTIONALITY
     // [TestMethod]
     // public void CountOccurrences__ReturnsAnInteger_Six()
     // {
@@ -24,10 +24,19 @@ namespace WordCounter.Models
     //   Assert.AreEqual(6, returnValue);
     // }
 
+    // OLD TEST; NEEDS UPDATE FOR ALTERED FUNCTIONALITY
+    // [TestMethod]
+    // public void CountOccurrences__ReturnsAnInteger_Two()
+    // {
+    //   RepeatCounter counter = new RepeatCounter("Banana", "anana");
+    //   int returnValue = counter.CountOccurrences();
+    //   Assert.AreEqual(2, returnValue);
+    // }
+
     [TestMethod]
-    public void CountOccurrences__ReturnsAnInteger_Two()
+    public void CountOccurrences__ReturnsCountOfInstancesIncludingFilterConditions_Two()
     {
-      RepeatCounter counter = new RepeatCounter("Banana", "anana");
+      RepeatCounter counter = new RepeatCounter("cat in a cat bag", "cat");
       int returnValue = counter.CountOccurrences();
       Assert.AreEqual(2, returnValue);
     }

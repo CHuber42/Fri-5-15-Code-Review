@@ -27,10 +27,10 @@ To run: either build the project using dotnet build and run the .exe, or navigat
 ** Spec 3: Create a new object out of a class** <done> Input/Output: N/A
 ** Spec 4: Use class's constructor to assign taken-in strings to attributes** <done> Input/Output: "Banana" | RepeatCounter.TemplateString = "Banana" 
 ** Spec 5: Create a method in RepeatCounter to count # of letters in templatestring (test behavior)** <done> Input: "Banana" | Output: 6
-** Spec 6: Update Counter Method to count all occurrences of substring in string** Input/Output: "Banana", "anana" | 1 <up next>
-** Spec 7: Add Filter to #6 to not count any occurrences not bracketed by spaces** Input/Output <Pending>
-** Core Functionality ends here; more Specs may be added post-attainment of functionality goals ** Input/Output: "I am a Banana", "I" | 1 <Pending>
-** Spec 1: **
+** Spec 6: Update Counter Method to count all occurrences of substring in string** Input/Output: "Banana", "anana" | 1 <done>
+** Spec 7: Add Filter to #6 to not count any occurrences not bracketed by spaces** Input/Output <done>
+** Core Functionality ends here; more Specs may be added post-attainment of functionality goals ** Input/Output: "I am a Banana", "I" | 1 <done>
+** Spec 8: PRINT VALUE ON SCREEN** Input/Output: "cat in a cat bag", "cat" || 2 <in progress>
 ** Spec 1: **
 
 
