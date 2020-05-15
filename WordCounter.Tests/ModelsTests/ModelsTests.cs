@@ -12,6 +12,14 @@ namespace WordCounter.Models
     {
       RepeatCounter counter = new RepeatCounter("Banana", "anana");
       Assert.AreEqual("Banana", counter.TemplateString);
+      Assert.AreEqual("anana", counter.ScanningString);
+    }
+
+    public void RepeatCounterConstructor__AssignObjectPropertiesDuringConstruction_EmptyStrings()
+    {
+      RepeatCounter counter = new RepeatCounter("Banana", "anana");
+      Assert.AreEqual("Banana", counter.TemplateString);
+      Assert.AreEqual("anana", counter.ScanningString);
     }
   }  
 }

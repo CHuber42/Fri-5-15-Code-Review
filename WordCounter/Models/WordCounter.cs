@@ -11,5 +11,7 @@ namespace WordCounter.Models
       TemplateString = templateString;
       ScanningString = scanningString;
     }
+
+    public 
   }
 }

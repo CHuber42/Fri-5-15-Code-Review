@@ -22,9 +22,13 @@ To run: either build the project using dotnet build and run the .exe, or navigat
 
 ##### Development specs:
 
-** Spec 1: Take in an input string from a user as a template string to scan for words**
-** Spec 2: Take in a second input string as 'what to look for in the first string'**
-** Spec 3: Create a new object out of a class**
+** Spec 1: Take in an input string from a user as a template string to scan for words** <done>
+** Spec 2: Take in a second input string as 'what to look for in the first string'** <done>
+** Spec 3: Create a new object out of a class** <done>
+** Spec 4: Use class's constructor to assign taken-in strings to attributes** <done>
+** Spec 5: Create a method in RepeatCounter to count # of occurrences of substring in string** <in progress>
+** Spec 1: **
+** Spec 1: **
 ** Spec 1: **
 ** Spec 1: **
 
