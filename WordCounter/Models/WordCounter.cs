@@ -15,11 +15,29 @@ namespace WordCounter.Models
     public int CountOccurrences()
     {
       int occurrences = 0;
-      for (int i = 0; i <= (TemplateString.Length - ScanningString.Length); i++)
-      {
-        string candidateSubstring = TemplateString.Substring(i,(ScanningString.Length));
-        Console.WriteLine("Candidate: " + candidateSubstring);
-        occurrences += 1;
+      for (int i = 0; i <= (TemplateString.Length - ScanningString.Length - 1); i++)
+      {              
+        string substringBeingTested;
+        string modifiedScanningString;
+        if (i == 0)
+        {
+          modifiedScanningString = ScanningString + " ";
+        }
+        else if (i == (TemplateString.Length - ScanningString.Length - 1))
+        {
+          modifiedScanningString = " " + ScanningString;
+        }
+        else
+        {
+          modifiedScanningString = " " + ScanningString + " ";
+        }
+        
+        substringBeingTested = TemplateString.Substring(i,(modifiedScanningString.Length));        
+        if (substringBeingTested == modifiedScanningString)
+        {
+          occurrences += 1;
+        }
+
       }
       return occurrences;
     }
