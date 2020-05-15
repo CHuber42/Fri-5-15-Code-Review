@@ -12,6 +12,9 @@ namespace WordCounter.Models
       ScanningString = scanningString;
     }
 
-    public 
+    public int CountOccurrences()
+    {
+      return TemplateString.Length;
+    }
   }
 }
