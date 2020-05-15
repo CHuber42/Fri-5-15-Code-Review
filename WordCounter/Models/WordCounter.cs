@@ -14,6 +14,7 @@ namespace WordCounter.Models
 
     public int CountOccurrences()
     {
+      
       return TemplateString.Length;
     }
   }
