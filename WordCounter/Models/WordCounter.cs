@@ -4,9 +4,12 @@ namespace WordCounter.Models
 {
     public class RepeatCounter
     {
-      public RepeatCounter()
+      public string TemplateString{get;set;}
+      public string ScanningString{get;set;}
+      public RepeatCounter(string templateString, string scanningString)
       {
-        
+       // TemplateString = templateString;
+        //ScanningString = scanningString;
       }
     }
 }
